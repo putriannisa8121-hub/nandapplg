@@ -1,0 +1,160 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: calibri, "segoe ui", arial, tahoma, sans-serif;
+}
+
+/* BODY */
+body{
+    background-color: #DDDDDD;
+}
+
+/* WRAPPER */
+#wrapper{
+    width: 780px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* HEADER */
+#header{
+    background: #9dc97f; /* sedikit lebih soft */
+    padding: 20px;
+    overflow: hidden;
+}
+
+#header img{
+    float: left;
+}
+
+#menu-utama{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+#menu-utama li{
+    float: left;
+}
+
+#menu-utama li a{
+    display: block;
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-utama li a:hover{
+    background: #c3e7ab; /* hover lebih keliatan */
+}
+
+/* SEARCH */
+#header form{
+    float: right;
+}
+
+#header input[type=text]{
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+}
+
+/* SLIDER (dibedain warnanya 🔥) */
+#slider {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px;
+    background: #d4e6c8; /* beda dari body */
+}
+
+#slider img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 5px;
+}
+
+/* CONTENT */
+#daftar-artikel{
+    width: 500px;
+    float: left;
+}
+
+.artikel{
+    background: #ffffff;
+    padding: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    border: 1px solid #ddd; /* tipis aja */
+}
+
+.artikel img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.artikel h1{
+    font-size: 20px;
+}
+
+.artikel b{
+    font-size: 12px;
+    color: #999;
+}
+
+.artikel p{
+    margin: 10px 0;
+}
+
+.artikel a{
+    display: inline-block;
+    padding: 5px 10px;
+    background: #93b377;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* SIDEBAR */
+#sidebar{
+    width: 250px;
+    float: right;
+    background: #fff;
+    padding: 15px;
+}
+
+#sidebar h2{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#sidebar p{
+    margin-bottom: 12px;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+#sidebar ul li{
+    margin-bottom: 5px;
+}
+
+#sidebar ul li a{
+    text-decoration: none;
+    color: #333;
+}
+
+/* FOOTER */
+#footer{
+    background: #79a85a; /* disamain sama hover */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+}
+
